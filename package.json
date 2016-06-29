@@ -4,8 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "go": "tsc --watch"
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "node node_modules/live-server/live-server.js",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "live-server": "^1.0.0",
+    "typescript": "^1.8.10"
   },
   "author": "@rdad",
   "license": "ISC"

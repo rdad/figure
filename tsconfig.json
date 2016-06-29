@@ -1,6 +1,8 @@
 {
     "compilerOptions": {
+        "target": "es5",
         "module": "commonjs",
+        "moduleResolution": "node",
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
@@ -10,6 +12,6 @@
     "exclude": [
         "node_modules",
         "wwwroot",
-        "definitions"
+        "typings"
     ]
 }
