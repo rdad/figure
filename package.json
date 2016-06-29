@@ -1,7 +1,7 @@
 {
   "name": "figure",
   "version": "1.0.0",
-  "description": "",
+  "description": "A library to manage svg figures",
   "main": "index.js",
   "scripts": {
     "start": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
