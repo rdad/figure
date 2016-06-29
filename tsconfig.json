@@ -6,12 +6,12 @@
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        "outDir": "dist/app/",
+        "outDir": "dist/",
         "sourceMap": true
     },
     "exclude": [
         "node_modules",
-        "wwwroot",
+        "dist",
         "typings"
     ]
 }
